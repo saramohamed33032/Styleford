@@ -1,0 +1,1054 @@
+/*
+
+color:#6F6F6F;
+color:#694E11;
+color:#fff;
+*/
+
+
+/*----------------------*/
+/*----------------------*/
+/* start main page*/
+
+/*----------------------*/
+/*----------------------*/
+
+*{ 
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;  
+     margin: 0;
+    padding: 0;
+}
+body,html {
+    width: 100%;
+    font-family: Poppins, sans-serif, Montserrat;
+   
+}
+
+/*----------------------*/
+/*----------------------*/
+/* end main page*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start general class */
+/*----------------------*/
+/*----------------------*/
+.container-fluid{
+    padding: 0px !important;
+    overflow: hidden;
+ 
+    
+}
+.navbar-toggler-icon{
+    color: #6F6F6F;
+    border: 1px solid #6F6F6F;
+    border-radius:5px;
+    text-align: center;
+    padding: 4px 0 0 0;
+    margin-left: 14vw;
+    
+    
+}
+.navbar-toggler{
+  padding: 0.45rem 0.85rem !important;  
+}
+
+/*
+a{color:#999 !important;}
+a:hover{color: #B48619 !important; }
+a:focus{color: #B48619;}
+*/
+i{cursor: pointer;}
+.MC{color: #777}
+.SC{color:#B48619 !important;}
+.TC{color:#999;}
+.BC{color: #000;}
+.WC{
+    color: #fff;
+}
+.BB{
+    border-bottom: 2px solid #999 !important;
+}
+.my-p{ width: 50%;}
+.HC{color: #B48619; }
+.BGC{background-color: #B48619;}
+
+/*start the begining text*/
+
+.begining-text p{
+    color: #777;
+    font-size: 15px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.carousel-indicators li {
+   
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    
+}
+#open{
+    display: block;
+}
+ol{
+    
+    margin-bottom: -3rem !important;
+}
+.btn-outline-light{
+    border-radius: 1px !important;
+     
+    
+}
+.btn-outline-light:hover{
+    background-color: #B48619 !important;
+     border-color: #B48619 !important;
+     color: #fff !important;
+}
+.SPC{
+    color: #DC3545 !important;
+}
+/*end the begining text*/
+
+
+/*----------------------*/
+/*----------------------*/
+/*end general class */
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start main-header*/
+/*----------------------*/
+/*----------------------*/
+.main-header{
+    background-color: #000;
+    
+}
+
+  /* start inner-header */
+
+.main-header .inner-header{
+    color: #fff;
+
+}
+.main-header .inner-header .header-links{
+    position: fixed;
+    left:0;
+    right:0;
+    z-index: 10000;
+    background:rgba(0,0,0,.7);
+    
+    
+}
+.main-header .inner-header .header-links p{
+    line-height: 45px;
+    letter-spacing: 1.1px;
+}
+.main-header .inner-header .header-links nav .nav-item .nav-link {
+
+    color:#fff !important;
+    padding: .2rem .2rem !important;
+    margin: 0 .5rem !important;
+    font-size: .9rem;
+    font-weight: 500;
+    
+    
+}
+.main-header .inner-header .top-header .nav .nav-item .nav-link {
+    padding: -.1rem 0.2rem !important;
+}
+.main-header .inner-header .header-links nav .nav-item .nav-link:hover 
+{
+    color:#B48619 !important;
+    border-bottom: 1px solid #B48619;
+    
+    
+}
+/*
+.main-header .inner-header .header-links nav .nav-item .nav-link:fucus 
+{
+    color:#B48619 !important;
+    border-bottom: 1px solid #B48619;
+    
+    
+}
+*/
+.main-header .inner-header .header-links .navbar-nav .nav-item .active {
+    
+    border-bottom: 1px solid #B48619 ; 
+    color:#B48619 !important;
+    
+}
+
+.main-header .inner-header .top-header {
+    color:#6F6F6F;
+   letter-spacing: 1px;
+    
+   
+    
+}
+.main-header .inner-header .top-header .nav .nav-item .nav-link{
+     border-right: 1px solid #6F6F6F;
+    padding: 0.1rem 0.5rem !important;
+    
+    
+}
+.main-header .inner-header .top-header .nav .nav-item:last-child .nav-link{
+
+    border-right: none;
+}
+
+.main-header .inner-header .top-header .nav .nav-item .nav-link:hover{
+    color:#B48619 !important;
+    
+}
+.main-header .header-links .nav .nav-item .nav-link
+{
+    padding: 0.1rem 0.5rem !important;
+}
+.main-header .header-links .nav .nav-item .nav-link:hover
+{
+   color:#B48619 !important;
+}
+.main-header .header-links .nav .nav-item:first-child .nav-link
+{
+    border-right: 1px solid #fff;
+}
+    
+    
+
+/*----------------------*/
+/*----------------------*/
+/* end inner-header */
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start slider*/
+/*----------------------*/
+/*----------------------*/
+.main-header .slider{
+    
+}
+.main-header .slider .carousel-caption {
+    position: absolute;
+    right: 8vw;
+    top:20vh;
+    left: 39%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.main-header .slider .carousel-caption p{
+    font-size: 26px;
+    font-size: 700;
+    text-transform: capitalize;
+}
+.main-header .slider .carousel-caption h5{
+    font-size: 70px;
+    font-size: 300;
+    text-transform: capitalize;
+    
+}
+.main-header .slider .carousel-caption .sale-style{
+    letter-spacing: 14px;
+    font-size: 15px;
+}
+ .main-header .slider .btn-outline-light{
+    border-radius: 1px !important;
+     
+    
+}
+ .main-header .slider .btn-outline-light:hover{
+    background-color: #B48619 !important;
+     border-color: #B48619 !important;
+     color: #fff !important;
+}
+
+/*----------------------*/
+/*----------------------*/
+/*end  slider*/
+
+/*end main-header*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start new-Arrivals */
+/*----------------------*/
+/*----------------------*/
+.NEW-ARRIVALS{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2% 0;
+    overflow: hidden;
+    
+    
+    
+}
+
+.NEW-ARRIVALS .price {
+    font-size: 16px;
+}
+.NEW-ARRIVALS .price:hover {
+    color: #BE0000;
+    
+    
+}
+
+.owl-item:hover{
+    cursor: pointer;
+
+}
+
+/*----------------------*/
+/*----------------------*/
+/*end the begining text*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+./*----------------------*/
+/*----------------------*/
+/*start CHOOSE-SECTION*/
+/*----------------------*/
+/*----------------------*/
+.CHOOSE-SECTION{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding: 2% 0;
+    overflow: hidden;
+    
+}
+.clothes-section .card{
+    border: none;
+}
+.clothes-section .card  img{
+    width: 100%;
+    height: 45vh;
+    
+    
+}
+.clothes-section .card a{
+   
+    padding-bottom: 4px; 
+    border-bottom: 2px solid #999;
+}
+.clothes-section .card a:hover{
+    text-decoration: none;
+    color: #B48619;
+     border-bottom-color:#B48619;
+    
+}
+
+
+./*----------------------*/
+/*----------------------*/
+/*end CHOOSE-SECTION*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+./*----------------------*/
+/*----------------------*/
+/*start TESTIMONIALS*/
+/*----------------------*/
+/*----------------------*/
+.TESTIMONIALS{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2% 0;
+    overflow: hidden;
+   color: #fff;
+    
+   
+    
+}
+.xx{
+     background-color: #000 !important;
+     background-image: url(../img/testimonials.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+   
+    
+}
+.TESTIMONIALS .carousel-captions img{
+    border-radius: 50%;
+    
+}
+.TESTIMONIALS .carousel-captions p{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: .8px;
+}
+
+
+
+
+
+./*----------------------*/
+/*----------------------*/
+/*end TESTIMONIALS*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start Services*/
+/*----------------------*/
+/*----------------------*/
+
+.Services{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 2% 0;
+    overflow: hidden;
+    
+    
+}
+.Services .card {
+    border: none;
+}
+.Services .card p{
+    font-size: 15px;
+    letter-spacing:.3px; 
+}
+.Services .card .h5{
+    letter-spacing: 1.1px;
+    
+}
+
+.Services .card:hover{
+    box-shadow:1px 1px 8px  rgba(0,0,0,.4);
+}
+/*----------------------*/
+/*----------------------*/
+/*+end Services*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*+start footer-section*/
+/*----------------------*/
+/*----------------------*/
+.footer-section{
+    margin-top: 5%;
+    padding: 5% 0;
+    overflow: hidden;
+    background-color: #222222;
+    color: #fff;
+    
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1%;
+}
+.footer-section .header h6{
+    padding: 5px 3px;
+    border-bottom: 1px solid #5F5F5F;
+    letter-spacing: 1.1px;
+    word-spacing: -3px;
+}
+.footer-section  .nav-link{
+    padding: 0.1rem .1rem;
+    margin: 0 1rem;
+    color: #fff;
+    text-transform: capitalize;
+   
+}
+.footer-section .section1 .nav-link{
+    padding: 0.2rem .1rem;
+    margin: 0 1rem;
+    border-bottom: 1px solid #5F5F5F;
+    color: #fff;
+    text-transform: capitalize;
+    width: 75%;
+    
+}
+
+.footer-section .section1 .nav-link:hover{
+    color: #B48619;
+    padding: 0.1rem .1rem  0.1rem .2rem;
+    
+/*    transition: padding .15s ease-in-out;*/
+   
+    
+}
+.footer-section .nav-link .Dis{
+    float: right;
+    margin-top:12px; 
+    
+}
+.footer-section p{
+    margin:  0 0 0 1rem ;
+    font-size: 14px;
+     text-transform: capitalize;
+    color: #777;
+/*    letter-spacing: .2px;*/
+    
+}
+ .footer-section form{
+    margin:  0 0 0 1rem ;
+    
+}
+.footer-section .form-control{
+    border-radius: 0rem !important;
+    background-color: #222222 !important;
+    border-color: #5F5F5F !important;
+}
+.footer-section .btn{
+    border-radius: 0rem !important;
+    background-color: #222222 !important;
+    border-color: #5F5F5F !important;
+    color: #fff;
+    
+}
+.footer-section .btn:hover{
+    background-color: #B48619 !important;
+}
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*+end footer-section*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*+start Clothes Page*/
+/*----------------------*/
+/*----------------------*/
+
+
+.CoverPage{
+    background: url(../img/clothes_cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+ 
+   
+     
+    
+    
+}
+.CoverPage .Clothes-Overlay-Text{
+/*   opacity: .7;*/
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color:rgba(0,0,0,.4);
+
+}
+.CoverPage .Clothes-Overlay-Text .content{
+    padding-top: 40vh;
+    z-index: 3;
+}
+.CoverPage .Clothes-Overlay-Text h2{
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 400;
+}
+.CoverPage .Clothes-Overlay-Text .nav-link{
+    color: #fff !important;
+    font-size: 1.5rem;
+    
+}
+.CoverPage .Clothes-Overlay-Text .active .nav-link{
+   color: #B48619 !important; 
+border-left: 2px solid #fff;
+} 
+.CoverPage .Clothes-Overlay-Text .nav-link:hover 
+ {
+    color: #B48619 !important;
+    
+}
+
+
+
+.Sport{
+     background: url(../img/sports/sport_cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.Shoes{
+     background: url(../img/shoes/shoes_cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.Watches{
+     background: url(../img/watches_cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.Bags{
+     background: url(../img/bags_cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+/*----------------------*/
+/*----------------------*/
+/*+end Clothes Page*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*+start breadcrumb-section*/
+/*----------------------*/
+/*----------------------*/
+.breadcrumb-section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    overflow: hidden;
+}
+.breadcrumb-section a{color:#999 !important;}
+.breadcrumb-section a:hover{color: #B48619 !important; }
+.breadcrumb-section a:focus{color: #B48619;}
+.breadcrumb-section .breadcrumb-item.active{
+    color: #000 !important;
+}
+
+/*----------------------*/
+/*----------------------*/
+/*+end breadcrumb-section*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*+end CATEGORIES*/
+/*----------------------*/
+/*----------------------*/
+
+.CATEGORIES{
+    
+    margin-bottom: 4%;
+    padding: 1% ;
+  
+}
+.CATEGORIES h4{
+    border-top: 3px solid #B48619;
+    color: #B48619;
+    text-transform: uppercase;
+    letter-spacing: ز7px;
+}
+.CATEGORIES .nav-link {
+    padding: 0rem 1.3rem !important;
+    color: #999 !important;
+}
+.CATEGORIES  .btn-outline-light{
+    background-color: #000;
+}
+.CATEGORIES .adv-img img{
+    
+    
+}
+.CATEGORIES  .card{
+    border: none !important;
+}
+.CATEGORIES .content  .card .card-img-top:hover{
+    background: url("../img/Clothes/01.1.jpg") no-repeat !important;
+    opacity: 1;
+}
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*+end CATEGORIES*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/* start (phones, 600px and down) */
+/*----------------------*/
+/*----------------------*/
+
+@media all and (max-width: 600px)
+*{
+    background-color: #000 !important;
+}
+
+.main-header .slider .carousel-caption {
+    position: absolute;
+    right: 3vw;
+    top:8vh;
+    z-index: 100;
+
+}
+.main-header .slider .carousel-caption p{
+    font-size:1rem;
+    font-size: 200;
+    text-transform: capitalize;
+}
+.main-header .slider .carousel-caption h5{
+    font-size: 20px;
+    font-size: 300;
+    text-transform: capitalize;
+    
+}
+.main-header .slider .carousel-caption .sale-style{
+    letter-spacing: 4px;
+    font-size: 8px;
+}
+.begining-text h2{
+    font-size: 1.5rem !important;
+      
+}
+
+}
+
+
+/*----------------------*/
+/*----------------------*/
+/* end (phones, 600px and down) */
+/*----------------------*/
+/*----------------------*/
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start Small devices  */
+/*----------------------*/
+/*----------------------*/
+@media all and (min-width: 600px) {
+/*
+    *{
+        background-color: #fff;
+    }
+*/
+.main-header .slider .carousel-caption {
+    position: absolute;
+    right: 1vw;
+    top:8vh;
+    z-index: 100;
+   
+    
+}
+.main-header .slider .carousel-caption p{
+    font-size:1rem;
+    font-size: 200;
+    text-transform: capitalize;
+}
+.main-header .slider .carousel-caption h5{
+    font-size: 20px;
+    font-size: 300;
+    text-transform: capitalize;
+    
+}
+.main-header .slider .carousel-caption .sale-style{
+    letter-spacing: 4px;
+    font-size: 8px;
+}
+.begining-text h2{
+    font-size: 1.6rem !important;
+      
+}
+    
+    
+}
+
+
+/*----------------------*/
+/*----------------------*/
+/*start Small devices  */
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*start Medium devices  */
+/*----------------------*/
+/*----------------------*/
+
+@media all and (min-width: 768px) {
+/*
+    *{
+        background-color: black;
+    }
+*/
+.main-header .slider .carousel-caption {
+    position: absolute;
+    right: 5vw;
+    top:17vh;
+    z-index: 100;
+   
+    
+}
+.main-header .slider .carousel-caption p{
+    font-size:1.4rem;
+    font-size: 300;
+    text-transform: capitalize;
+}
+.main-header .slider .carousel-caption h5{
+    font-size: 2rem;
+    font-size: 400;
+    text-transform: capitalize;
+    
+}
+.main-header .slider .carousel-caption .sale-style{
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+.begining-text h2{
+    font-size: 1.8rem !important;
+      
+}
+}
+/*----------------------*/
+/*----------------------*/
+/*start Medium devices  */
+/*----------------------*/
+/*----------------------*/
+
+
+/*----------------------*/
+/*----------------------*/
+/*start Large devices */
+/*----------------------*/
+/*----------------------*/
+@media all and (min-width: 992px) {
+/*
+    *{
+        background-color: yellow;
+    }
+*/
+.main-header .slider .carousel-caption {
+    position: absolute;
+    right: 5vw;
+    top:20vh;
+    z-index: 100;
+   
+    
+}
+.main-header .slider .carousel-caption p{
+    font-size:2.9rem;
+    font-size: 500;
+    text-transform: capitalize;
+}
+.main-header .slider .carousel-caption h5{
+    font-size: 3.6rem;
+    font-size: 600;
+    text-transform: capitalize;
+    
+}
+.main-header .slider .carousel-caption .sale-style{
+    letter-spacing: 8px;
+    font-size: 1.9rem !important;
+}
+
+    
+}
+/*----------------------*/
+/*----------------------*/
+/*end Large devices */
+/*----------------------*/
+/*----------------------*/
+
+
+
+
+
+
+/*----------------------*/
+/*----------------------*/
+/*  start Extra large devices  */
+/*----------------------*/
+/*----------------------*/
+@media all and (min-width: 1200px) {
+/*
+    *{
+        background-color: blue;
+    }
+*/
+.main-header .slider .carousel-caption {
+    position: absolute;
+    right: 5vw;
+    top:20vh;
+    z-index: 100;
+   
+    
+}
+.main-header .slider .carousel-caption p{
+    font-size:2.9rem;
+    font-size: 500;
+    text-transform: capitalize;
+}
+.main-header .slider .carousel-caption h5{
+    font-size: 4.4rem;
+    font-size: 700;
+    text-transform: capitalize;
+    
+}
+.main-header .slider .carousel-caption .sale-style{
+    letter-spacing: 8px;
+    font-size: 1rem;
+}
+}
+/*----------------------*/
+/*----------------------*/
+/*  start Extra large devices  */
+/*----------------------*/
+/*----------------------*/
+
+
+/*
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
